@@ -1,0 +1,131 @@
+/* Начало стилей структуры страницы */
+body{background:#f4f4f5;font-family: 'Open Sans', sans-serif; font-size:15px;zoom:1;line-height:1;}
+header, nav, section, footer, figure {display:table;}
+header, nav, section, footer {width:100%;margin:0 auto;}
+.mceContentBody {background-image: none;background-color: #fff; color:#000;}
+
+.mceContentBody ul li { list-style-type: disc !important;  list-style-position:inside;}
+
+.clear {clear:both; display:block; width:100%;}
+
+a {color:#000;}
+a:hover {text-decoration:none;}
+
+
+nav ul {list-style:none; }
+
+/* сброс */
+* {
+padding:0;
+margin:0;
+outline:none; 
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	}
+/* помните об определении стиля focus! */
+:focus {
+	outline: 0;
+	}
+/* для таблиц надо устанавливать в разметке 'cellspacing="0"' */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+	}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+/* Конец стилей структуры страницы */
+
+header {height:521px; background:url(../images/backhead.jpg)  center 80px repeat;}
+.hb1 {width:100%; height:80px; display:table; background:#2f3038;}
+.hb1a {width:961px; margin:0 auto;height:80px;display:table; position:relative;}
+.logo {width:178px; height:60px; display:table; background:url(../images/spritewago3.png) 0px 0px no-repeat; margin:10px 0 0 0px;}
+.tel {position:absolute; left:284px; top:35px; color:#fff; font-size:20px; text-decoration:none; font-weight:300;}
+.adress {position:absolute; left:481px; top:35px; color:#49aec0; font-size:20px; text-decoration: none; font-weight:300; border-bottom:1px solid #49aec0; padding:0 0 3px 0;}
+.mail {position:absolute; left:782px; top:35px; color:#49aec0; font-size:20px;  text-decoration: none; font-weight:300; border-bottom:1px solid #49aec0; padding:0 0 3px 0;}
+.mail:hover {border:0px;}
+.hb2 {width:961px; height:441px; display:table; margin:0 auto; position:relative;}
+.klemi {font-size:30px; color:#fff; font-weight:300; margin:48px 0 0 0;}
+.klemi span {color:#50b848; font-weight:800;}
+.free { position:absolute; top:44px; left:425px; font-size:15px; font-weight:800; color:#fff; line-height:32px; text-transform:uppercase; width:255px;}
+.free .icon {width:32px; height:32px; display:table; background:url(../images/spritewago3.png) 0px -65px no-repeat; float:left; margin:0 13px 0 0;}
+.free.dost {left:684px;}
+.free .desc {display:table; font-size:13px; font-weight:300; text-transform:none; position:relative; left:44px; top:-10px;}
+
+.tov {list-style:none; display:table; width:961px; height:auto; margin:51px 0 0 0;}
+.tov li {float:left; width:300px; height:120px; border-radius:5px; background:#fff; margin:0 30px 30px 0; position:relative;}
+.tov li.last {margin:0 0px 30px 0;}
+.tb1 {float:left; width:120px; height:120px; background:#eaeaeb;border-radius:5px 0 0 5px; text-align:center;}
+.tb1 .name { margin:15px 0 9px 0;}
+.tb1 .name.secn { margin:15px 0 9px 0;}
+.tb1 .numb {font-weight:800; color:#50b848;}
+.img {}
+.img img {border-radius:5px;}
+
+.form {width:300px; height:370px; background:#2f3038; position:absolute; top:0px; left:0px; border-radius:3px; text-align:center;}
+.zag {width:100%; text-align:center; line-height:50px; height:50px; text-transform:uppercase; color:#fff; font-weight:800; background:#49aec0; border-radius:3px 3px 0 0;}
+.pole {width:235px; height:40px; border-radius:3px; border:0px; padding:0 0 0 5px; line-height:40px;}
+.formname {color:#fff; padding:21px 0 18px 0; line-height:1.5;}
+.submit {width:240px; height:41px; background:url(../images/spritewago3.png) 0px -100px no-repeat; border:0px; margin:30px 0 0 0; font-weight:800; color:#fff; font-size:15px; cursor:pointer;}
+#callback {color:#fff; margin:0px 0 0 0;}
+
+.sb1 {width:961px; margin:0 auto 50px; display:table;}
+h1 {margin:48px 0 7px 0; font-size:30px; font-weight:300;}
+.h2 {color:#808397; font-size:20px; text-transform:uppercase; font-weight:800; margin:44px 0 13px 0;} 
+.sb1 p {margin:60px 0 55px 0; line-height:1.5; position:relative;}
+.textgray {font-size:13px; color:#a2a3a6;line-height:1.5;}
+.tovimg {float:left;}
+.tov1 {position:absolute; right:0px; top:-30px;}
+.tov2 {position:absolute; right:0px; top:-10px;}
+
+.sb2 {width:100%; height:360px; display:table; background:url(../images/bacfoot.png) center 0px repeat-x; position:relative;}
+.sb2a {width:961px; height:360px; margin:0 auto; display:table; position:relative; z-index:1;}
+h2 {text-align:center; width:100%; display:table; margin:58px 0 55px 0; font-size:30px; font-weight:300; color:#fff;}
+.about {width:100%; display:table; height:auto; list-style:none;}
+.about li {width:25%; height:auto; display:table; float:left; text-align:center; color:#fff; line-height:1.6; font-weight:300;}
+.about li img {display:table; margin:0 auto 47px;}
+.line {position:absolute; bottom:0px; left:0px; width:100%; height:3px; background:#49aec0; z-index:-1;}
+.sb3 {width:100%; height:810px; background:#49aec0 url(../images/lan.png) 0px 0px no-repeat;}
+.sb3a {width:961px; height:810px; margin:0 auto; display:table; position:relative; z-index:1;}
+h3 {text-align:center; width:100%; display:table; margin:58px 0 55px 0; font-size:30px; font-weight:300; color:#fff;}
+.sb3a1 {width:50%; float:left; display:table; text-align:center; margin:20px 0 0 0; font-size:20px; font-weight:300; color:#fff;}
+.h4 {text-align:center; width:100%; display:table; margin:238px 0 35px 0; font-size:30px; font-weight:300; color:#fff;}
+
+.sb4 {width:100%; height:390px; display:table; background:url(../images/footer.png) center 0px repeat-x; position:relative;}
+.sb4 .line {position:absolute; top:0px; left:0px; width:100%; height:3px; background:#49aec0; z-index:-1;}
+.sb4 .h4 {margin:45px 0 35px 0;}
+.sb4a {width:961px;  margin:0 auto; display:table; position:relative; z-index:1;}
+.sb4a1 {width:50%; float:left; display:table; text-align:left; margin:20px 0 0 0; font-size:20px; font-weight:300; color:#fff;}
+.sb4a1 span {margin:0 0 0 40px; display:table;}
+.sb4 .about li { font-size:13px;}
+.sb4 .about li img {display:table; margin:0 auto 23px;}
+
+.sb5 {width:100%; height:340px; display:table;text-align:center;}
+.sb5 .h4 {margin:45px 0 35px 0; color:#000;}
+.sb5 img {}
+
+footer {width:100%; height:120px; display:table; background:#2f3038;text-align:center; line-height:120px;}
+footer a {color:#49aec0; font-size:20px; font-weight:300;}
